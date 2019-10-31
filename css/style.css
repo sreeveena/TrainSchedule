@@ -1,0 +1,10 @@
+.jumbotron{
+    background: rgb(138, 81, 7);
+    color: white;
+    text-align: center;
+    height: 140px;
+    padding-top: 60px;
+    width: 860px;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
