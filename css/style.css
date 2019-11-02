@@ -6,5 +6,50 @@
     padding-top: 60px;
     width: 860px;
     margin-left: 40px;
+    margin-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.panel{
+    background: cornflowerblue;
+    width: 860px;
+    height: 30px;
+    margin-left: 40px;
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+.table{
+    border: solid;
+    border-color: cornflowerblue;
+    border-width: 0.1em;
+    width: 870px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.form-control{
+    width: 840px;
+    margin-bottom: 10px; 
+}
+#trainInfoBtn{
+    background: cornflowerblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.label{
+    font-size: 0.75em;
+    font-weight: bold;
+}
+th{
+    font-size: 0.75em;
+    font-weight: bold;
+}
+table tr{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+table tr:last-child{
+    border-bottom: none;
 }
