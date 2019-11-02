@@ -11,19 +11,27 @@
 }
 .panel{
     background: cornflowerblue;
-    width: 860px;
+    width: 873.19px;
     height: 30px;
     margin-left: 40px;
     color: white;
-    padding-left: 10px;
     border-radius: 5px 5px 0px 0px;
 
+}
+.panel-body{
+    padding: 10px;
+}
+#trainTable{
+    width: 860px;
+    padding-top: 10px;
+    text-align: left;
+    margin-bottom: 5px;
 }
 .table{
     border: solid;
     border-color: cornflowerblue;
     border-width: 0.1em;
-    width: 870px;
+    width: 860px;
     margin-left: 40px;
     padding-left: 10px;
     padding-top: 10px;
@@ -46,10 +54,11 @@ th{
     font-size: 0.75em;
     font-weight: bold;
 }
-table tr{
+tr{
     border-bottom: 1px solid black;
     margin-bottom: 10px;
 }
 table tr:last-child{
     border-bottom: none;
 }
+
