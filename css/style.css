@@ -1,3 +1,4 @@
+/* class jumbotron styling */
 .jumbotron{
     background: rgb(138, 81, 7);
     color: white;
@@ -9,6 +10,7 @@
     margin-bottom: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* class panel styling */
 .panel{
     background: cornflowerblue;
     width: 873.19px;
@@ -18,10 +20,12 @@
     border-radius: 5px 5px 0px 0px;
 
 }
+/* class panel-body styling */
 .panel-body{
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* trainTable id styling */
 #trainTable{
     width: 860px;
     padding-top: 10px;
@@ -29,6 +33,7 @@
     margin-bottom: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* class table styling */
 .table{
     border: solid;
     border-color: cornflowerblue;
@@ -38,31 +43,34 @@
     padding-left: 10px;
     padding-top: 10px;
 }
+/* class form-control styling */
 .form-control{
     width: 840px;
     margin-bottom: 10px; 
 }
+/* submit button with class trainInforBtn styling */
 #trainInfoBtn{
     background: cornflowerblue;
     margin-bottom: 10px;
     border-radius: 5px;
     color: white;
 }
+/* styling class label in form */
 .label{
     font-size: 0.75em;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 th{
-    font-size: 0.5em;
-    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-tr{
-    border-bottom: 1px solid black;
+td{
+    border-top: 1px solid #ddd;
     margin-bottom: 10px;
-}
-table tr:last-child{
-    border-bottom: none;
+    font-size: 0.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
