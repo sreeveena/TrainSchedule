@@ -1,6 +1,6 @@
 // This script  will take following input value from user:
-//Train name, destination, first train time and frequency of train.
-//and calculate next arrival tie and nuber of inutes away fro the station.
+//Train name, destination, first train time and frequency of train on click of the submit button
+//and calculate next arrival time and number of minutes away from the station.
 
 // initialize firebase
 var firebaseConfig = {
