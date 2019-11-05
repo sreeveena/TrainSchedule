@@ -1,5 +1,8 @@
+// This script  will take following input value from user:
+//Train name, destination, first train time and frequency of train.
+//and calculate next arrival tie and nuber of inutes away fro the station.
 
-
+// initialize firebase
 var firebaseConfig = {
         apiKey: "AIzaSyCraMsD9hgOVt0gL1-n4MYiC9TqOZ5hH-M",
         authDomain: "fir-online-be2ad.firebaseapp.com",
@@ -12,16 +15,13 @@ var firebaseConfig = {
       };
   firebase.initializeApp(firebaseConfig);
   
-  
   // Create a variable to reference the database.
   var database = firebase.database();
 
-  function myTimer() {
-    var d = new Date();
-    $("#current-time").text(d.toLocaleTimeString());
-}
 var frequency = 0; 
 var firstTrain = 0;  
+//on click of submit button the input values enetered by the user will be collected and stored in 
+//local variables and global variables like frequency and first train.
 
 $("#trainInfoBtn").on("click", function(event){
 
@@ -51,6 +51,7 @@ $("#trainInfoBtn").on("click", function(event){
         dateAdded: firebase.database.ServerValue.TIMESTAMP
       });
 });
+//dynamically table row and columns are generated in html for every user input.
 database.ref().on("child_added", function(event){
 var eventValue = event.val();
 
