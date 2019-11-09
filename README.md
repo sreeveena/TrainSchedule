@@ -18,21 +18,6 @@ and calculate next arrival time and number of minutes away from the station and 
 
 basic html 
 '''
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Train Schedule</title>
-     <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Firebase References -->
-<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
-<!--CSS style sheet -->
-<link rel="stylesheet" href="./css/style.css">
-</head>
 <body>
     <div class="container">
         <br>
@@ -48,8 +33,8 @@ basic html
                 <div class="panel panel-default">      
                     <div class="panel-body">Current Train Schedule</div>
                 </div>
-                <div class="table" >
-                    <table id= "trainTable" > 
+                <div class="table1" >
+                    <table  class="table" id= "trainTable" > 
                         <thead id="tableRow">
                             <tr>
                                 <th>Train Name</th>
@@ -74,7 +59,7 @@ basic html
                 <div class="panel panel-default">
                         <div class="panel-body">Add Train </div>
                 </div>
-                <div class="table">
+                <div class="table1">
                     <table  id= "trainTable"> 
                         <form>
                          <div class="form-group">
@@ -100,9 +85,7 @@ basic html
       <script src="javascript/moment.js"></script>
     <!-- Link to Moment.js should go here -->
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
 </body>
-</html>
 '''
 function for onclick of submit button in html in moment.js
 '''
@@ -148,4 +131,5 @@ eventValue.train +"</td>" +
     console.log("Errors handled: " + errorObject.code);
 });
 '''
-[!image](https://user-images.githubusercontent.com/7834767/68352532-919b9b80-00bb-11ea-98cd-f888bb6e66b0.png)
+[!image](https://user-images.githubusercontent.com/7834767/68534867-8aa89f00-02ee-11ea-8669-f19b999ed422.png)
+[!image](https://user-images.githubusercontent.com/7834767/68534868-8aa89f00-02ee-11ea-99af-7b6559214fe6.png)
