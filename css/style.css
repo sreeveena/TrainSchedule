@@ -3,7 +3,7 @@
     background: rgb(138, 81, 7);
     color: white;
     text-align: center;
-    height: 140px;
+    height: 240px;
     padding-top: 60px;
     width: 860px;
     margin-left: 40px;
@@ -33,11 +33,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* class table styling */
-.table{
+.table1{
     border: solid;
     border-color: cornflowerblue;
     border-width: 0.1em;
-    width: 860px;
+    width: 873px;
     margin-left: 40px;
     padding-left: 10px;
     padding-top: 10px;
@@ -60,14 +60,5 @@
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-th{
-    margin-bottom: 10px;
-    font-size: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-table,tbody,tr,td{
-    margin-bottom: 10px;
-    font-size: 0.8em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 

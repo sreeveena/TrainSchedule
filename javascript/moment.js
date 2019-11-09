@@ -55,7 +55,7 @@ $("#trainInfoBtn").on("click", function(event){
 database.ref().on("child_added", function(event){
 var eventValue = event.val();
 
-$(".tableBody").append("<tr class='row'><td class='name'> " +
+$(".tableBody").append("<tr><td class='name'> " +
 eventValue.train +"</td>" +
 "<td class='des'> "+ eventValue.destination + "</td>" +
 "<td class='freq'> "+ eventValue.frequency + "</td>" +
