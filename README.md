@@ -121,17 +121,17 @@ Dynamically table row and columns are generated in html for every user input in 
 '''javascript
 
     database.ref().on("child_added", function(event){
-var eventValue = event.val();
-$(".tableBody").append("<tr class='row'><td class='name'> " +
-eventValue.train +"</td>" +
-"<td class='des'> "+ eventValue.destination + "</td>" +
-"<td class='freq'> "+ eventValue.frequency + "</td>" +
-"<td class='nextArrival'> "+ eventValue.nextTrain + "</td>" 
-+"<td class='minutesAway'> "+ eventValue.minutesTillTrain+ "</td></tr>" );
-// Handle the errors
-}, function(errorObject) {
-    console.log("Errors handled: " + errorObject.code);
-});
+    var eventValue = event.val();
+    $(".tableBody").append("<tr class='row'><td class='name'> " +
+    eventValue.train +"</td>" +
+    "<td class='des'> "+ eventValue.destination + "</td>" +
+    "<td class='freq'> "+ eventValue.frequency + "</td>" +
+    "<td class='nextArrival'> "+ eventValue.nextTrain + "</td>" 
+    +"<td class='minutesAway'> "+ eventValue.minutesTillTrain+ "</td></tr>" );
+    // Handle the errors
+    }, function(errorObject) {
+        console.log("Errors handled: " + errorObject.code);
+    });
 '''
 ![image](https://user-images.githubusercontent.com/7834767/68534867-8aa89f00-02ee-11ea-8669-f19b999ed422.png)
 ![image](https://user-images.githubusercontent.com/7834767/68534868-8aa89f00-02ee-11ea-99af-7b6559214fe6.png)
