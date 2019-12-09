@@ -88,8 +88,8 @@ basic html
 </body>
 '''
 function for onclick of submit button in html in moment.js
-'''
-$("#trainInfoBtn").on("click", function(event){
+
+   $("#trainInfoBtn").on("click", function(event){
     event.preventDefault();
     // Get the input values
     var trainName = $("#name").val().trim();
@@ -113,7 +113,7 @@ $("#trainInfoBtn").on("click", function(event){
         dateAdded: firebase.database.ServerValue.TIMESTAMP
       });
 });
-'''
+
 
 Dynamically table row and columns are generated in html for every user input in moment.js.
 
