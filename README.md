@@ -113,7 +113,7 @@ function for onclick of submit button in html in moment.js
         minutesTillTrain: minutesTillTrain,
         dateAdded: firebase.database.ServerValue.TIMESTAMP
       });
-});
+    });
 '''
 
 Dynamically table row and columns are generated in html for every user input in moment.js.
